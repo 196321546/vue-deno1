@@ -1,9 +1,8 @@
 <template>
   <div id="app">
-    <app-header
-      @topage1="topage1"
-      @topage2="topage2"></app-header>
-    <app-search></app-search>
+    <app-header></app-header>
+    <!-- <app-search></app-search> -->
+    <router-view></router-view>
   </div>
 </template>
 
@@ -21,12 +20,6 @@ export default {
     }
   },
   methods: {
-    topage1 (){
-
-    },
-    topage2 (){
-      
-    }
   }
 }
 </script>
