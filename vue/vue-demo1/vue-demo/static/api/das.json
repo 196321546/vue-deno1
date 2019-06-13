@@ -1,0 +1,33 @@
+{
+    "data" :[{
+        "id":1,
+        "name":"a liu",
+        "sex":"男",
+        "number":123123123
+    },{
+        "id":2,
+        "name":"a lang",
+        "sex":"男",
+        "number":6833123
+    },{
+        "id":3,
+        "name":"a liang",
+        "sex":"男",
+        "number":6633
+    },{
+        "id":4,
+        "name":"a fei",
+        "sex":"男",
+        "number":995552
+    },{
+        "id":5,
+        "name":"a hong",
+        "sex":"女",
+        "number":91235552
+    },{
+        "id":6,
+        "name":"xiao mei",
+        "sex":"女",
+        "number":92
+    }]
+}
