@@ -30,6 +30,12 @@ export default {
             list: []
         };
     },
+    //el 被新创建的 vm.$el 替换，并挂载到实例上去之后调用
+    /* mounted:function(){
+        this.$nextTick(function(){
+            this.gettable();
+        })
+    }, */
     methods:{
         gettable(){
             var url  = "static/api/das.json";                
@@ -48,6 +54,8 @@ export default {
              });    
         }
     },
+
+    //实例被创建之后执行
     created:function(){
         this.gettable()
     },
